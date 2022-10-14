@@ -29,7 +29,7 @@ title('speckle contrast')
 %% calculate relative velocity
 % T: exposure time
 T = 1; % for testing
-V = 1./K./T;
+V = 1./(T.*K.*K);
 figure(hf)
 subplot(224)
 imagesc(V)
