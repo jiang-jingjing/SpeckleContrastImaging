@@ -54,3 +54,7 @@ subplot(224)
 imagesc(V)
 colorbar
 title('relative velocity')
+
+%% get a statistical summary of the velocity
+V_mean = mean(V(:));
+V_std = std(V(:));
