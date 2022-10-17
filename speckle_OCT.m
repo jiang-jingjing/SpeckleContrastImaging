@@ -58,3 +58,5 @@ title('relative velocity')
 %% get a statistical summary of the velocity
 V_mean = mean(V(:));
 V_std = std(V(:));
+
+figure, boxplot(V(:))
