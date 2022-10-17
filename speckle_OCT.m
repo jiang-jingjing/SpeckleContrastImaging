@@ -5,8 +5,8 @@
 % modified:
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% read in image
-img3d = tiffreadVolume('../Data_OCT/161048190_AvgOCT.tif'); %2D, this is an example image from MATLAB
-
+img3d = tiffreadVolume('../Data_OCT/161048190_AvgOCT.tif'); %3D, this is 
+% an example OCT image  
 %% visualize 3 cross sections
 coord = [1085, 150 150];
 figure, 
